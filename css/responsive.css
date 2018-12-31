@@ -62,7 +62,7 @@
   #banner {
     text-align: center;
   }
-  #banner .block .buttons a:first-child {
+  #banner .block .buttons  {
     margin-left: 7px;
     margin-bottom: 10px;
   }
@@ -128,5 +128,16 @@
   #blog-left .blog-img .col-md-6 img{
     margin-bottom: 20px;
   }
-
+  /* team photo */
+  #team .team-overlay{
+    padding: 0;
+  }
+  #team .team-overlay .icon{
+    margin: 0;
+    padding: 0;
+  }
+   #team .team-overlay p{
+     font-size: 10px;
+     line-height: 20px;
+   }
 }
